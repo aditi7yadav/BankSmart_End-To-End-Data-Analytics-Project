@@ -1,8 +1,11 @@
-# BankSmart_End-To-End-Data-Analytics-Project-Czechoslovakia Banking Financial Data Analysis
+# BankSmart_End-To-End-Data-Analytics-Project
+Czechoslovakia Banking Financial Data Analysis
+
 This project involves a comprehensive analysis of financial data for the Czechoslovakia Bank using a manually created dataset of over 1 million records across 8 tables. The workflow covers data cleaning, transformation, integration with S3 and Snowflake, and dashboard creation for actionable insights.
 
 
 **Project Overview**
+
 The dataset, representing 5 years of financial activity, includes the following tables:
 
 Account: Customer account details, including ID, opening date, and type.
@@ -15,6 +18,7 @@ Order: Client orders with ID, linked accounts, date, and description.
 Transaction: Account transaction records with ID, date, type, and amount.
 
 **Workflow Highlights**
+
 1. Data Integration
 Storage Integration: S3 bucket was used to store datasets, with secure access configured via AWS IAM roles.
 Snowflake Integration: Snowflake stages were created to load and manage data using external integration and file formats.
@@ -33,7 +37,9 @@ Demographic profiles of clients by district.
 Loan portfolio distribution and profitability.
 Card usage patterns and credit card profitability.
 Transaction trends and anomalies.
-Analysis Objectives
+
+**Analysis Objectives**
+
 The bank aims to derive actionable insights to guide decision-making and explore growth opportunities. Key questions include:
 
 What is the demographic profile of clients, and how does it vary by district?
@@ -46,4 +52,5 @@ How can customer service and satisfaction be improved?
 Can new products or services be introduced to attract customers and enhance profitability?
 
 **Objective**
+
 The project's goal is to provide a detailed analysis of the bank's operations using Snowflake, automated pipelines, and advanced dashboards. The insights will support optimizing financial operations, identifying risks, and discovering growth opportunities.
